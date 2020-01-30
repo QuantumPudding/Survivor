@@ -1,0 +1,35 @@
+﻿<Conversations>
+
+  <Conversation Name="Greetings">
+    <Text>Hello. How about these zombies huh?</Text>
+
+    <Handlers>
+      <Handler Caption="Continue" Action="StartConversation:StartFollowing" />
+    </Handlers>
+    
+  </Conversation>
+
+  <Conversation Name="StartFollowing">
+    <Text>Wanna stick together?</Text>
+    <Handlers>
+      <Handler Caption="Sure" Action="StartFollowing; EndConversation" />
+      <Handler Caption="No thanks" Action="StartConversation:SoLong" />
+    </Handlers>
+  </Conversation>
+
+  <Conversation Name="StopFollowing">
+    <Text>What's up?</Text>
+    <Handlers>
+      <Handler Caption="Stop following me" Action="StopFollowing; LoseTarget; EndConversation" />
+      <Handler Caption="Nothing" Action="EndConversation" />
+    </Handlers>
+  </Conversation>
+
+  <Conversation Name="SoLong">
+    <Text>So long then.</Text>
+    <Handlers>
+      <Handler Caption="Continue" Action="LoseTarget; EndConversation" />
+    </Handlers>
+  </Conversation>
+  
+</Conversations>

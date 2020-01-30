@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C# Express 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SurvivorV3", "SurvivorV3\SurvivorV3\SurvivorV3.csproj", "{1B9CECEB-234C-4D04-BDA5-18E12D397722}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SurvivorV3Content", "SurvivorV3\SurvivorV3Content\SurvivorV3Content.contentproj", "{934F4E52-7989-4B36-A990-6B3D826CBF2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TileEngine", "TileEngine\TileEngine.csproj", "{DEAE6F5C-22F0-46F9-BD27-016CCE75EE37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TileMapEditor", "TileMapEditor\TileMapEditor.csproj", "{022ED309-E2A0-4225-93AC-A220B66E6BFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TileContent", "TileContent\TileContent.csproj", "{FB563CA4-7238-426B-A548-5A985131F813}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B9CECEB-234C-4D04-BDA5-18E12D397722}.Debug|x86.ActiveCfg = Debug|x86
+		{1B9CECEB-234C-4D04-BDA5-18E12D397722}.Debug|x86.Build.0 = Debug|x86
+		{1B9CECEB-234C-4D04-BDA5-18E12D397722}.Release|x86.ActiveCfg = Release|x86
+		{1B9CECEB-234C-4D04-BDA5-18E12D397722}.Release|x86.Build.0 = Release|x86
+		{934F4E52-7989-4B36-A990-6B3D826CBF2E}.Debug|x86.ActiveCfg = Debug|x86
+		{934F4E52-7989-4B36-A990-6B3D826CBF2E}.Release|x86.ActiveCfg = Release|x86
+		{DEAE6F5C-22F0-46F9-BD27-016CCE75EE37}.Debug|x86.ActiveCfg = Debug|x86
+		{DEAE6F5C-22F0-46F9-BD27-016CCE75EE37}.Debug|x86.Build.0 = Debug|x86
+		{DEAE6F5C-22F0-46F9-BD27-016CCE75EE37}.Release|x86.ActiveCfg = Release|x86
+		{DEAE6F5C-22F0-46F9-BD27-016CCE75EE37}.Release|x86.Build.0 = Release|x86
+		{022ED309-E2A0-4225-93AC-A220B66E6BFA}.Debug|x86.ActiveCfg = Debug|x86
+		{022ED309-E2A0-4225-93AC-A220B66E6BFA}.Debug|x86.Build.0 = Debug|x86
+		{022ED309-E2A0-4225-93AC-A220B66E6BFA}.Release|x86.ActiveCfg = Release|x86
+		{022ED309-E2A0-4225-93AC-A220B66E6BFA}.Release|x86.Build.0 = Release|x86
+		{FB563CA4-7238-426B-A548-5A985131F813}.Debug|x86.ActiveCfg = Debug|x86
+		{FB563CA4-7238-426B-A548-5A985131F813}.Debug|x86.Build.0 = Debug|x86
+		{FB563CA4-7238-426B-A548-5A985131F813}.Release|x86.ActiveCfg = Debug|x86
+		{FB563CA4-7238-426B-A548-5A985131F813}.Release|x86.Build.0 = Debug|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

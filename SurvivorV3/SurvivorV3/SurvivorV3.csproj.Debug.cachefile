@@ -1,0 +1,15 @@
+Content\DarkOverlay.xnb
+Content\Sprites\Enemy.xnb
+Content\Highlight.xnb
+Content\Tiles\Rock.xnb
+Content\Tiles\Grass.xnb
+Content\Tiles\Fence.xnb
+Content\Sprites\PlayerStatic.xnb
+Content\Cross.xnb
+Content\Items\GolfClub.xnb
+Content\Tiles\PathHorizontal.xnb
+Content\Font.xnb
+Content\Fonts\Tahoma.xnb
+Content\Scripts\NPC1.xnb
+Layers\Collisions.txt
+Layers\Layer1.txt
